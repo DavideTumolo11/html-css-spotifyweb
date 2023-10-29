@@ -10,3 +10,50 @@
     --spot-footgrey: rgba(40, 40, 40, 1);
 }
 
+.debug header {
+    background-color: aqua;
+}
+
+header {
+    position: fixed;
+    left: 200px;
+    height: 100px;
+    width: 100%;
+}
+
+.debug .vertical-nav {
+    background-color: blueviolet;
+}
+
+.vertical-nav {
+    position: fixed;
+    left: 0;
+    width: 200px;
+    height: 1000px;
+}
+
+.debug main {
+    background-color: brown;
+    
+}
+
+main {
+    position: fixed;
+    left: 200px;
+    top: 100px;
+    height: 100%;
+    width: 100%;
+}
+
+.debug footer {
+    background-color: blue;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100%;
+}
+
