@@ -1,0 +1,12 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --spot-primary: rgba(20, 25, 34, 1);
+    --spot-secondary: rgba(8, 11, 18, 1);
+    --spot-footgrey: rgba(40, 40, 40, 1);
+}
+
