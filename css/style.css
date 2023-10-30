@@ -10,50 +10,164 @@
     --spot-footgrey: rgba(40, 40, 40, 1);
 }
 
-.debug header {
-    background-color: aqua;
+.btn {
+    text-decoration: none;
+    color: gray;
 }
 
-header {
-    position: fixed;
-    left: 200px;
-    height: 100px;
-    width: 100%;
+h1 {
+    color: white;
+    margin: 30px;
 }
 
-.debug .vertical-nav {
-    background-color: blueviolet;
-}
 
-.vertical-nav {
-    position: fixed;
-    left: 0;
-    width: 200px;
-    height: 1000px;
-}
-
-.debug main {
-    background-color: brown;
+body{
     
 }
 
-main {
-    position: fixed;
-    left: 200px;
-    top: 100px;
-    height: 100%;
-    width: 100%;
+.row {
+    display: flex;
+
 }
 
-.debug footer {
-    background-color: blue;
+/* nav */
+.nav {
+    display: flex;
+    flex-direction: column;
+    
+    padding-top: 30px;
+    padding-left: 20px;
+    width: calc(100% / 12 * 6);
+    background-color: black;
+    height: 709px;
+    width: 20%;
 }
 
-footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
+.logo {
+    width: 150px;
+}
+
+
+/* nav */
+
+
+
+/* header */
+
+.container-header {
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-color: var(--spot-secondary);
     height: 100px;
     width: 100%;
 }
+
+.upgrade {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+    border: solid;
+    border-radius: 30px;
+    padding: 10px;
+    margin-right: 20px;
+}
+
+
+/* header */
+
+
+
+
+/* central */
+
+.central {
+    width: calc(100% / 12 * 6);
+    background-color: var(--spot-primary);
+    height: 709px;
+    width: 100%;
+}
+
+/* main */
+
+.container-main {
+
+}
+
+/* menù */
+.menù {
+    display: flex;
+    justify-content: center;
+}
+
+.menù .btn {
+    margin-top: 20px;
+    padding: 30px;
+    font-size: 15px;
+}
+
+.under {
+    text-decoration: underline;
+    text-decoration-color: chartreuse;
+}
+/* menù */
+
+
+
+/* album */
+
+.img-rec-play {
+    display: flex;
+    margin-left: 30px;
+}
+
+.rec-play {
+    width: 230px;
+    padding-right: 10px;
+}
+
+.album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.title-album {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 170px;
+    margin-top: 20px;
+}
+
+h3 {
+    color: white;
+}
+
+h5 {
+    color: gray;
+    margin-top: 10px;
+}
+
+/* main */
+
+/* central */
+
+
+
+
+
+
+/* footer */
+
+
+
+
+footer {
+    height: 90px;
+    width: 100%;
+    background-color: var(--spot-footgrey);
+}
+/* footer */
 
