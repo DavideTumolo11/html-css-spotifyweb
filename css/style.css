@@ -17,12 +17,11 @@
 
 h1 {
     color: white;
-    margin: 30px;
+    margin-left: 30px;
 }
 
-
-body{
-    
+.più-ascolti {
+    margin-left: 30px;
 }
 
 .row {
@@ -34,17 +33,16 @@ body{
 .nav {
     display: flex;
     flex-direction: column;
-    
     padding-top: 30px;
     padding-left: 20px;
     width: calc(100% / 12 * 6);
     background-color: black;
-    height: 709px;
-    width: 20%;
+    height: 730px;
+    width: 15%;
 }
 
 .logo {
-    width: 150px;
+    width: 130px;
 }
 
 
@@ -59,7 +57,7 @@ body{
     justify-content: end;
     align-items: center;
     background-color: var(--spot-secondary);
-    height: 100px;
+    height: 80px;
     width: 100%;
 }
 
@@ -84,8 +82,9 @@ body{
 .central {
     width: calc(100% / 12 * 6);
     background-color: var(--spot-primary);
-    height: 709px;
+    height: 730px;
     width: 100%;
+    overflow: auto;
 }
 
 /* main */
@@ -96,13 +95,14 @@ body{
 
 /* menù */
 .menù {
+    margin-bottom: 30px;
     display: flex;
     justify-content: center;
 }
 
 .menù .btn {
     margin-top: 20px;
-    padding: 30px;
+    padding-right: 30px;
     font-size: 15px;
 }
 
@@ -116,14 +116,28 @@ body{
 
 /* album */
 
-.img-rec-play {
+.fa-circle-play {
+    color: white;
+    font-size: 100px;
+    z-index: 1;
+}
+
+
+
+.quiet {
+    filter: brightness(0.5);
+    z-index: 0;
+}
+
+.card-rec-play, .card-john-doe, .card-artisti {
     display: flex;
     margin-left: 30px;
 }
 
-.rec-play {
-    width: 230px;
-    padding-right: 10px;
+.rec-play, .john-doe {
+    margin-top: 30px;
+    width: 235px;
+    padding-right: 30px;
 }
 
 .album {
@@ -139,6 +153,7 @@ body{
     align-items: center;
     width: 170px;
     margin-top: 20px;
+    margin-bottom: 30px;
 }
 
 h3 {
@@ -148,6 +163,18 @@ h3 {
 h5 {
     color: gray;
     margin-top: 10px;
+}
+
+
+/* artisti più popolari */
+
+.img-avatar .artisti {
+    width: 200px;
+    height: 200px; 
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-right: 20px;
+
 }
 
 /* main */
@@ -165,7 +192,10 @@ h5 {
 
 
 footer {
-    height: 90px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    height: 70px;
     width: 100%;
     background-color: var(--spot-footgrey);
 }
