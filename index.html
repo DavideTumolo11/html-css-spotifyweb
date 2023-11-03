@@ -6,6 +6,7 @@
     <title>SpotifyWeb</title>
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 
@@ -57,32 +58,34 @@
                     <li class="name-playlist">Nome Playlist</li>
                     <li class="name-playlist">Nome Playlist</li>
                 </ul>
-    
-                <div class="app">
-                    <img class="download" src="./img/download.svg" alt="">
 
-                    <div class="install">
-                        installa app
-                    </div>
-                </div>
-
-                <hr>
 
                 <div class="footer-nav">
-                    <div class="profile">
-                        <img class="img-profile" src="./img/profile.svg" alt="">
-                    </div>
 
-                    <div>
-                        <h4>
-                            John Doe
-                        </h4>
+                    <div class="app">
+                        <img class="download" src="./img/download.svg" alt="">
+                
+                        <div class="install">
+                            installa app
+                        </div>
+                    </div>
+                
+                    <hr class="line-footer-nav">
+                
+                    <div class="down-artist">
+                        <div class="profile">
+                            <img class="img-profile" src="./img/profile.svg" alt="">
+                        </div>
+                
+                        <div>
+                            <h4>
+                                John Doe
+                            </h4>
+                        </div>
                     </div>
                 </div>
-
-                
-                
     
+            
             </div>
         </div>
     
@@ -179,14 +182,16 @@
                     </div>
 
                     <div class="album">
-                        <div class="card-img">
-                            
-                            <img class="rec-play quiet" src="./img/aquietplace.jpeg" alt="">
-                            <div class="">
-                                <i class="fa-sharp fa-regular fa-circle-play"></i>
+                        
+
+                            <div class="pippo">
+                                <div>
+                                    <i class="fa-sharp fa-regular fa-circle-play playy"></i>
+                                </div>
+                                
                             </div>
                             
-                        </div>
+                        
                         
 
                         <div class="title-album">
@@ -353,19 +358,8 @@
 
                 </div>
 
-
-
-
-
-
-
-
                 <!-- album -->
             </div>
-
-
-
-
 
 
         </div>
@@ -376,6 +370,61 @@
 
     <!-- footer -->
     <footer>
+
+        <div class="in-ascolto">
+            <div class="live-now">
+                <img class="img-live-now" src="./img/sinister.jpeg" alt="">
+
+                <div>
+                    <h4 class="text-in-ascolto">Sinister</h4>
+                    <h6>Brano Nome</h6>
+                </div>
+            </div>
+
+            <div class="icon-in-ascolto">
+                <i class="fa-regular fa-heart"></i>
+                <i class="fa-regular fa-folder"></i>
+            </div>
+        </div>
+
+        <div class="reproduction">
+
+            <div class="commands">
+                <i class="fa-solid fa-shuffle"></i>
+                <i class="fa-solid fa-backward-step"></i>
+                <i class="fa-sharp fa-regular fa-circle-play play-footer"></i>
+                <i class="fa-solid fa-forward-step"></i>
+                <i class="fa-solid fa-rotate-right"></i>
+            </div>
+
+            <div class="time">
+                <div>
+                    <h6 class="time-number">0:25</h6>
+                </div>
+                <div>
+                    <hr class="line-time">
+                </div>
+                
+
+                <div>
+                    <h6 class="time-number">4:35</h6>
+                </div>
+                
+            </div>
+
+        </div>
+
+        <div class="option">
+            <div class="icon-option">
+                <i class="fa">&#xf0ca;</i></i>
+                <i class="fa-solid fa-display"></i>
+                <i class="fa-solid fa-volume-high"></i>
+            </div>
+            <div>
+                <hr class="line-volume">
+            </div>
+
+        </div>
 
     </footer>
     <!-- footer -->
