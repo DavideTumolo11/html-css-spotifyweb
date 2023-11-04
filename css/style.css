@@ -24,46 +24,25 @@ h1 {
     margin-left: 30px;
 }
 
-.row {
-    display: flex;
-    
-}
-
-.col-6 {
-
-}
-
-body {
-    
-}
-
-
-
-/* RESPONSIVE */
-
-@media screen and (max-width: 768px) {
-    .nav {
-        
-    }
-    
-}
-
- 
 
 
 
 
-
-/* RESPONSIVE*/
 
 /* nav */
-.nav {
+
+.sidebar {
     padding-top: 30px;
     padding-left: 20px;
-    width: calc(100% / 12 * 6);
+    position: fixed;
+    left: 0;
+    top: 0;
+    height: 90%;
+    width: 15%;
     background-color: black;
-    width: 260px;
+    list-style: none;
 }
+
 
 .vertical-nav {
     display: flex;
@@ -72,12 +51,9 @@ body {
 
 .logo {
     width: 130px;
+    margin-bottom: 30px;
 }
 
-.personal {
-    margin-top: 30px;
-    list-style: none;
-}
 
 .img-home {
     width: 30px;
@@ -145,9 +121,9 @@ body {
 }
 
 .footer-nav {
-    position: relative;
+    position: fixed;
     left: 0;
-    top: 220px;
+    bottom: -200px;
     display: flex;
     flex-direction: column;
 }
@@ -199,19 +175,25 @@ h4 {
 }
 
 
-
 /* nav */
+
+
+
 
 
 
 /* header */
 
-.container-header {
+
+.header {
+    position: relative;
+    left: 0;
+    top: 0;
     display: flex;
     justify-content: end;
     align-items: center;
     background-color: var(--spot-secondary);
-    height: 80px;
+    height: 10%;
     width: 100%;
 }
 
@@ -231,20 +213,17 @@ h4 {
 
 
 
-/* central */
-
-.central {
-    width: calc(100% / 12 * 6);
-    background-color: var(--spot-primary);
-    height: 730px;
-    width: 100%;
-    overflow: auto;
-}
-
 /* main */
 
-.container-main {
-    
+
+.section-main {
+    position: fixed;
+    left: 15%;
+    top: 0;
+    height: 90%;
+    width: 85%;
+    background-color: var(--spot-primary);
+    overflow: auto;
 }
 
 /* menù */
@@ -270,12 +249,10 @@ h4 {
 
 
 
+
 /* album */
 
 
-.container-recently-played {
-
-}
 
 .playy {
     color: white;
@@ -351,18 +328,8 @@ h5 {
 
 }
 
-/* main */
-
-/* central */
-
-
-
-
-
 
 /* footer */
-
-
 
 
 footer {
@@ -372,7 +339,7 @@ footer {
     position: fixed ;
     bottom: 0;
     left: 0;
-    height: 70px;
+    height: 10%;
     width: 100%;
     background-color: var(--spot-footgrey);
 }
@@ -403,8 +370,8 @@ h6 {
 }
 
 .icon-in-ascolto {
-    font-size: 10px;
-    margin-left: 60px;
+    font-size: 13px;
+    margin-left: 30px;
     color: rgb(105, 105, 105, 1);
 }
 
@@ -428,11 +395,11 @@ h6 {
 }
 
 .play-footer {
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .time {
-    margin-top: 20px;
+    margin-top: 10px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -478,5 +445,5 @@ h6 {
     border-radius: 30px;
 }
 
-/* footer */
 
+/* footer */
