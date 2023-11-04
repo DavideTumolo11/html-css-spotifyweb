@@ -41,8 +41,10 @@ body {
 
 /* RESPONSIVE */
 
-@media screen and (min-width: 1440px) {
-    
+@media screen and (max-width: 768px) {
+    .nav {
+        
+    }
     
 }
 
@@ -60,7 +62,7 @@ body {
     padding-left: 20px;
     width: calc(100% / 12 * 6);
     background-color: black;
-    width: 15%;
+    width: 260px;
 }
 
 .vertical-nav {
@@ -249,6 +251,7 @@ h4 {
 .menù {
     margin-bottom: 30px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -283,7 +286,7 @@ h4 {
     
 }
 
-.pippo {
+.container-quiet {
     margin-right: 30px;
     margin-top: 30px;
     height: 205px;
